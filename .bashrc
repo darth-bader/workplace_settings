@@ -120,5 +120,3 @@ alias doch='sudo $(history -p !-1)'
 export TERM="screen-256color"
 alias tmux="tmux -2"
 
-#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/home/mats/.gvm/bin/gvm-init.sh" ]] && source "/home/mats/.gvm/bin/gvm-init.sh"
