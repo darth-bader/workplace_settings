@@ -117,6 +117,12 @@ fi
 alias cd..='cd ..'
 alias doch='sudo $(history -p !-1)'
 
+# @see https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs
+alias git_graph="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
 export TERM="screen-256color"
 alias tmux="tmux -2"
 
+# set editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
