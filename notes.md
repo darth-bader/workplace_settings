@@ -1,5 +1,5 @@
 ## Debian Packs
-* install >> vim tmux htop mc build-essential software-properties-common gcc cmake curl
+* install >> vim tmux htop mc build-essential software-properties-common gcc cmake curl cscope ctags
 
 ## VIM
 ### Additional Packs
@@ -7,6 +7,7 @@
       "mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim"
 * CtrlP:
     "git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim"
+* NERDtree: "git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree"
 * airline:
     ** "git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline"
     ** "git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes"
