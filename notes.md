@@ -2,7 +2,7 @@
 * install >> vim tmux htop mc build-essential software-properties-common gcc cmake curl cscope ctags
 
 ## BASH customization
-* use .bashrc
+* use this [`.bashrc`](.bashrc)
 * see https://stackoverflow.com/questions/7888387/the-way-to-distinguish-command-mode-and-insert-mode-in-bashs-vi-command-line-ed:
   * in `~/.inputrc` add this:
     ```set show-mode-in-prompt on
@@ -13,6 +13,7 @@
     ```set -o vi```
 
 ## VIM
+* use this [`.vimrc`](.vimrc)
 ### Additional Packs
 * 'pathogen': 
       `mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim`
