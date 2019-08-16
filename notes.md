@@ -10,7 +10,7 @@
     set vi-ins-mode-string "+"
     set vi-cmd-mode-string ":"
     set vi-cmd-mode-string "\1\e[1;31m\2:\1\e[0m\2"```
-  * in `~/.inputrc` add this:
+  * in `~/.bashrc` add this:
     ```set -o vi```
 
 ## VIM
