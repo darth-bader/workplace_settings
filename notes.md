@@ -5,7 +5,8 @@
 * use this [`.bashrc`](.bashrc)
 * see https://stackoverflow.com/questions/7888387/the-way-to-distinguish-command-mode-and-insert-mode-in-bashs-vi-command-line-ed:
   * in `~/.inputrc` add this:
-    ```set show-mode-in-prompt on
+    ```
+    set show-mode-in-prompt on
     set vi-ins-mode-string "+"
     set vi-cmd-mode-string ":"
     set vi-cmd-mode-string "\1\e[1;31m\2:\1\e[0m\2"```
