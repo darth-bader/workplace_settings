@@ -9,7 +9,8 @@
     set show-mode-in-prompt on
     set vi-ins-mode-string "+"
     set vi-cmd-mode-string ":"
-    set vi-cmd-mode-string "\1\e[1;31m\2:\1\e[0m\2"```
+    set vi-cmd-mode-string "\1\e[1;31m\2:\1\e[0m\2"
+    ```
   * in `~/.bashrc` add this:
     ```set -o vi```
 
