@@ -27,6 +27,7 @@
   * `git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes`
 * color sheme 'gruvbox': 
       `git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox`
+* cscope maps: https://github.com/simplyzhao/cscope_maps.vim/
 
 ### enhance VIM C-Syntax
 1) rename `/usr/share/vim/vim??/syntax/c.vim` to `c_origin.vim`
