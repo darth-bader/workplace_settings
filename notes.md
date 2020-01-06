@@ -28,6 +28,7 @@
 * color sheme 'gruvbox': 
       `git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox`
 * cscope maps: https://github.com/simplyzhao/cscope_maps.vim/
+* Tagbar: `git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar`
 
 ### enhance VIM C-Syntax
 1) rename `/usr/share/vim/vim??/syntax/c.vim` to `c_origin.vim`
