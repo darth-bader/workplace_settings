@@ -85,7 +85,7 @@ set lbr  " Wrap text instead of being on one line
 " Show Whitespaces; toggle with ':set list!'
 ""set listchars=tab:»·,trail:·,eol:¶,extends:>
 set nolist
-set listchars=tab:»\·,trail:·,eol:¶
+set listchars=tab:»\·,trail:·,eol:¶,space:·
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
