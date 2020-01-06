@@ -1,5 +1,6 @@
 ## Debian Packs
 * install >> vim tmux htop mc git build-essential software-properties-common gcc cmake curl cscope ctags
+* (for projects) install >> libglib2.0-dev
 
 ## BASH customization
 * use this [`.bashrc`](.bashrc)
