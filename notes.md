@@ -13,6 +13,7 @@
     ```
   * in `~/.bashrc` add this:
     ```set -o vi```
+* schöne Schrift im Ubuntu Terminal _Noto Mono Regular_ (10)
 
 ## VIM
 * use this [`.vimrc`](.vimrc)
