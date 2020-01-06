@@ -1,5 +1,5 @@
 ## Debian Packs
-* install >> vim tmux htop mc build-essential software-properties-common gcc cmake curl cscope ctags
+* install >> vim tmux htop mc git build-essential software-properties-common gcc cmake curl cscope ctags
 
 ## BASH customization
 * use this [`.bashrc`](.bashrc)
