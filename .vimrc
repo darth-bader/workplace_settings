@@ -193,3 +193,35 @@ let g:netrw_winsize = 25
 " fugitive
 """"""""""""""""""""""""""""""
 set diffopt+=vertical
+
+""""""""""""""""""""""""""""""
+" NERDTree
+""""""""""""""""""""""""""""""
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+"automatically close a tab if the only remaining window is NerdTree (also taken from the Readme)
+autocmd bufenter * if (winnr(“$”) == 1 && exists(“b:NERDTreeType”) && b:NERDTreeType == “primary”) | q | endif
+"Automatically delete the buffer of the file you just deleted with NerdTree:
+let NERDTreeAutoDeleteBuffer = 1
+
+""""""""""""""""""""""""""""""
+" IDE
+"
+" builds a IDE like Windows arrangement:
+" - open NERDTree on the left
+" - open Tagbar below NT
+function! s:IDE()
+    NERDTreeClose
+    TagbarClose
+    wincmd o
+    let g:tagbar_left = 0
+    let g:tagbar_vertical = 30
+    let g:tagbar_compact = 1
+    NERDTreeToggle
+    TagbarToggle
+    vertical resize 36
+    resize 20 
+endfunction
+
+" let ':IDE' be the command...
+command! IDE call s:IDE()
