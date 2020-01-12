@@ -1,5 +1,5 @@
 ## Debian Packs
-* install >> vim tmux htop mc git build-essential software-properties-common gcc cmake curl cscope ctags gnome-tweak-tool ubuntu-restricted-extras
+* install >> vim tmux htop mc git build-essential software-properties-common gcc cmake curl cscope ctags virtualenv gnome-tweak-tool ubuntu-restricted-extras
 * (for projects) install >> libglib2.0-dev
 
 ## BASH customization
