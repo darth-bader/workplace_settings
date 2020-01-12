@@ -1,6 +1,5 @@
 ## Debian Packs
-* install >> vim tmux htop mc git build-essential software-properties-common gcc cmake curl cscope ctags gnome-tweak-tool
-* for nece looking install MS fonsts >> ubuntu-restricted-extras msttcorefonts ttf-mscorefonts-installer
+* install >> vim tmux htop mc git build-essential software-properties-common gcc cmake curl cscope ctags gnome-tweak-tool ubuntu-restricted-extras
 * (for projects) install >> libglib2.0-dev
 
 ## BASH customization
